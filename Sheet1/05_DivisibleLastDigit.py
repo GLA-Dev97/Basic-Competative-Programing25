@@ -1,7 +1,5 @@
-num = int(input("Enter the Number: "))
-if (num%3==0):
-    if(num%3==4):
-        print("Last digit is 4")
-    print("It is divisible by 3")
+num = int(input("Enter a number: "))
+if num % 3 == 0 and num % 10 == 4:
+    print("Divisible by 3 and last digit is 4")
 else:
-    print("it is not divisible by 3")
+    print("It is not Divisible by 3 and not last digit is 4")
